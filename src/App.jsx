@@ -9,7 +9,7 @@ function App() {
     <div>
 
     <header>
-      <h1 className='title'>Peliculas 🐒 </h1>
+      <h1 className='title'>Jorge el mono curioso 🐒 </h1>
     </header>
      <MyRoutes/>
     </div>

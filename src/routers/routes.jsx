@@ -5,7 +5,7 @@ export function MyRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LadingPage />} />
+        <Route exact path="/" element={<LadingPage />} />
       </Routes>
     </Router>
   );

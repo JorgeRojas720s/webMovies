@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { get } from "../data/httpClient";
 import { MovieCard } from "../components/MovieCard";
-import "./MovieCard.css"
+import "./ContextMovieCard.css"
 
 export function ContextMovieCard() {
   const [movies, setMovies] = useState([]);
@@ -14,7 +14,7 @@ export function ContextMovieCard() {
   }, []);
 
   return (
-    <div className="moviesContainer">
+    <ul className="moviesContainer">
       {movies.map((movie, key) => {
         console.log(movie.poster_path);
         return (
@@ -27,6 +27,6 @@ export function ContextMovieCard() {
           </div>
         );
       })}
-    </div>
+    </ul>
   );
 }

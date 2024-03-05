@@ -1,0 +1,15 @@
+.moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 80px; /*separa las imagens*/
+  padding: 40px;
+  justify-content: center;
+  background: rgb(8, 3, 13);
+
+}
+
+@media (max-widh: 560px){
+    .moviesContainer{
+        grid-template-columns: 100%;
+    }
+}
