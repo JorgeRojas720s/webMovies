@@ -1,3 +1,4 @@
+
 const API = "https://api.themoviedb.org/3"
 
 export function get(path){
